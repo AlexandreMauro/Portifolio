@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+	overflow: auto;
+	background-image: linear-gradient(to top,rgb(2, 8, 0, 0.2),rgba(0, 20, 2, 0.98));
+}
+.background{
+	
+	
+	background-image: url(../img/canion.png);
+	background-size: cover ;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+	align-items: center ;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.cabeçalho{
+	display:flex;
+	gap: 4rem;
+	font-weight:600 ;
+	cursor: pointer;
+	margin-right: 20rem;
+	float: center;
+	
+
+	
+}
+
+.cabeçalho a{
+	color:#00ff7f ;
+ 	font-size: 12px;
+ 	font-weight: 600;
+
+
+}
+
+.cabeçalho a:hover{
+	color: #ffffff  ;
+	font-size: 13px;
+	transition: 0.3s all;
+
+}
+.cabeçalho a{
+	align-items:center;
+}
+.logo{
+	height: 40px;
+	width: 40px;
+	background: transparent;
+	border: 2px solid  #00ff7f  ;
+	color:  #00ff7f  ;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 13px;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+  button{
+	background: transparent;
+	color:  #00ff7f ;
+	border: solid 1px #00ff7f ;
+	padding: 5px;
+	border-radius: 15px;
+	font-size: 12px;
+    width: 150px;
+
+}
+
+button:hover{
+	background-color: #00ff7f ;
+	font-weight: 600;
+	font-size: 14px;
+    color: #000;
+	transition:0.5s ;
+}
+
+.container{
+
+	padding:150px 0 0 130px;
+}
+.texto h3{
+color:#fff;
+font-size: 15px;
+}
+
+.texto h1{
+	color: #fff;
+	padding-top: 10px;
+}
+.texto span{
+
+	color: #00ff7f;
+}
+
+.texto p span:hover{
+  color: #65DCF1;
+
+  transition: 0.5s;
+}
+
+.ilu span:hover{
+
+	color: #FCD835;
+	transition: 0.5s;
+}
+
+.texto p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+.rede a{
+	color: #00ff7f ;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+.btn{
+	margin-top: 10px;
+}
+
+.rede a:hover{
+
+color: #fff;
+transition: 0.5s;
+
+}
+
